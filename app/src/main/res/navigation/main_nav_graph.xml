@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav"
-    app:startDestination="@id/homePageFragment">
+    app:startDestination="@id/modifyPwdFragment">
 
     <fragment
-        android:id="@+id/homePageFragment"
+        android:id="@+id/modifyPwdFragment"
         android:name="com.topstep.fitcloud.mavericks.sample.ModifyPwdFragment"
         tools:layout="@layout/fragment_modify_pwd"/>
 

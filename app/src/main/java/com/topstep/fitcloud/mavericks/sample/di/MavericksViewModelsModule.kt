@@ -15,5 +15,5 @@ interface MavericksViewModelsModule {
     @Binds
     @IntoMap
     @MavericksViewModelKey(ModifyPwdViewModel::class)
-    fun signInViewModelFactory(factory: ModifyPwdViewModel.Factory): AssistedViewModelFactory<*, *>
+    fun modifyPwdViewModelFactory(factory: ModifyPwdViewModel.Factory): AssistedViewModelFactory<*, *>
 }
